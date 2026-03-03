@@ -1,0 +1,6 @@
+{
+  "name": "ERP RRHH - Python",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install fastapi uvicorn pymongo pandas scikit-learn",
+  "forwardPorts": [8000]
+}
